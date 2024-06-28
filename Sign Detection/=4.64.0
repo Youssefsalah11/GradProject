@@ -1,0 +1,4 @@
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: tqdm in /usr/local/lib/python3.6/dist-packages (4.64.1)
+Requirement already satisfied: importlib-resources in /usr/local/lib/python3.6/dist-packages (from tqdm) (5.4.0)
+Requirement already satisfied: zipp>=3.1.0 in /usr/local/lib/python3.6/dist-packages (from importlib-resources->tqdm) (3.6.0)
