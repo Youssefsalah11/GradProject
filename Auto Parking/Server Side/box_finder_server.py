@@ -81,7 +81,7 @@ def box_finder(image):
 
     # Assuming you have 2 classes (1 parking slot + background)
     model = get_model_instance_segmentation(2)
-    model.load_state_dict(torch.load('/Users/youssefsalah/Downloads/parking_slot_detector.pth',map_location=torch.device('cpu')))
+    model.load_state_dict(torch.load('../parking_slot_detector.pth',map_location=torch.device('cpu')))
     model.eval()
     model.to(torch.device("cuda" if torch.cuda.is_available() else "cpu"))
     # image_path = '/Users/youssefsalah/Documents/Final Project (siemens)/Parking slot dataset/batch3/New Project (36).jpg'

@@ -6,6 +6,7 @@ This folder contains:
 3. 3st_model : contains the notebook used to train the model, third try
 4. Model Weights: contains the weights of the trained model
 5. client side: contains the files required to run the model on jetson nano using cuda
+6. manual_control: CALRA simulator control file using our model
 
 ## Usage 
 

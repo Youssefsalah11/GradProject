@@ -11,10 +11,12 @@ This is auto parking use case, the folder consists of 3 folders simulation, serv
     This runs on Jetson Nano
 
 ## Note
-as github refuses to upload files larger than 100MB, please download the weights from the following link:
+as github refuses to upload files larger than 100MB, please download the weights from the following link, and put it on Auto Parking folder:
 [Weight](https://drive.google.com/file/d/1pmd_C4H4LU6yaaCp-9oc2e_vJ06283X_/view?usp=sharing)
 
 ## Usage
+
+make sure LiDAR and SLAM are running
 
 ### Running the Simulation
 To run the simulation, navigate to the `simulation` directory and execute `top_module.py` using Python 3:
