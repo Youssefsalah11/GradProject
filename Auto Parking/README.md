@@ -18,15 +18,15 @@ as github refuses to upload files larger than 100MB, please download the weights
 
 make sure LiDAR and SLAM are running
 
-### Running the Simulation
+#### Running the Simulation
 To run the simulation, navigate to the `simulation` directory and execute `top_module.py` using Python 3:
-`cd Simulation`
-`python3 top_module.py`
+cd Simulation
+python3 top_module.py
 
-### Running server
-`cd Server\ Side`
-`python3 box_finder_server.py`
+#### Running server
+cd Server\ Side
+python3 box_finder_server.py
 
-### Running client
-`cd Client\ Side`
-`python3 topclient `
+#### Running client
+cd Client\ Side
+python3 topclient 
