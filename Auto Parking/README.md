@@ -4,7 +4,7 @@
 This is auto parking use case, the folder consists of 3 folders simulation, server-side and client-side.
 
 The control algorithm follows the following flow
-![Alt text](assets/model.png)
+![Alt text](/assets/model.png)
 
 ## structure
 1. Simulation
