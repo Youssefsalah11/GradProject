@@ -12,23 +12,23 @@ This folder contains:
 
 ### Pixel summation as control algorithm
 #### Without GUI
-    `cd client\ side`
-    `python3 detectLane.py`
+    cd client\ side
+    python3 detectLane.py
 #### With GUI
-    `cd client\ side`
-    `python3 detectLaneGUI.py`
+    cd client\ side
+    python3 detectLaneGUI.py
 
 ### Polynomials as control algortihm
 #### Without GUI
-    `cd client\ side`
-    `python3 detectLanePoly.py`
+    cd client\ side
+    python3 detectLanePoly.py
 #### With GUI
-    `cd client\ side`
-    `python3 detectLaneGUIPoly.py`
+    cd client\ side
+    python3 detectLaneGUIPoly.py
 #### Process on server
     on a laptop or computer
-    `cd server\ side`
-    `python3 server_lane.py`
+    cd server\ side
+    python3 server_lane.py
     on Jetson Nano
-    `cd client\ side`
-    `python3 detectLaneClient.py`
+    cd client\ side
+    python3 detectLaneClient.py
