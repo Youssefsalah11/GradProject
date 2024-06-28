@@ -1,4 +1,4 @@
 ### Usage
 
-`pip -r install requirements`
+`pip install -r requirements`
 `python3 signDetection2.py`
